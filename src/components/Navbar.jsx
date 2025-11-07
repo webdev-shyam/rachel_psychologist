@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  p-5 ">
         <div className="flex justify-between items-center h-20">
           <a href="#" className=" h-[200px] w-[200px] rounded-lg placeholder:text-2xl font-bold bg-linear-to-r flex justify-center items-center from-[#7A3EF0] to-[#3AA0FF] bg-clip-text text-transparent">
-          <img className="h-25 w-25 rounded-full object-cover" src="assets/rachel-profile.png" alt="logo" />
+          <img className="h-56 w-56 rounded-full object-cover" src="assets/logo4.png" alt="logo" />
         </a>
 
           <div className="hidden md:flex space-x-8">

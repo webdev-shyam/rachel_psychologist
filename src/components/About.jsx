@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -17,29 +17,25 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-textDark/80 leading-relaxed">
               <p>
-                I completed my Bachelor's degree in Psychology at ELTE University in Budapest,
-                where I developed a strong foundation in psychological theory and practice.
-                My education gave me the tools to understand human behavior, emotional patterns,
-                and the complexities of the mind.
+                I’m a psychologist with a Bachelor’s degree from <span className="italic font-bold px-2">ELTE University</span> 
+                 in Budapest. I have long-term experience teaching and supporting
+                preschool children, which shaped my interest in emotional
+                development and how people learn to navigate the world.
               </p>
               <p>
-                During my studies and beyond, I gained valuable experience working with preschool
-                children, which taught me patience, the importance of early emotional development,
-                and how to communicate with care and clarity.
+                Living abroad for more than ten years gave me firsthand insight
+                into cultural differences, identity challenges, and the
+                emotional weight of transitions.
               </p>
               <p>
-                I've also lived and worked abroad, which deepened my understanding of cultural
-                differences, identity struggles, and the unique challenges faced by expats and
-                individuals navigating life transitions.
+                I’m currently advancing my training in counselling and
+                psychotherapy. My approach is straightforward, empathetic, and
+                practical. I focus on meeting clients where they are and helping
+                them build strong inner resources that support real, lasting
+                growth.
               </p>
-              <p>
-                I am currently pursuing ongoing clinical training in counselling and psychotherapy,
-                staying committed to professional growth and evidence-based practice.
-              </p>
-              <p>
-                My approach is grounded in empathy, honesty, and practicality. I believe in meeting
-                people where they are and helping them build the inner resources they need to thrive.
-              </p>
+            
+            
             </div>
           </div>
 
