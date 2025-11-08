@@ -15,9 +15,9 @@ const About = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-textDark mb-6">
               About Me
             </h2>
-            <div className="space-y-4 text-textDark/80 leading-relaxed text-[0.8rem]">
+            <div className="space-y-4 text-textDark/80 leading-relaxed text-[1rem]">
               <p>
-                <span className="text-5xl">Hi,</span> I’m Rachel Hanna, a
+                Hi, I’m Rachel Hanna, a
                 psychologist with a Bachelor’s degree from ELTE University in
                 Budapest. My interest in psychology began long before my formal
                 studies. It started in high school, when I was living in Dubai.
@@ -28,7 +28,7 @@ const About = () => {
                 and the ways we make sense of the world.
               </p>
               <p>
-                <span className="text-2xl">I</span> grew up in Jordan, spent
+                I grew up in Jordan, spent
                 part of my teenage years in Dubai, then lived in Turkey, and
                 eventually moved to Budapest, where I pursued my psychology
                 degree. Over the past ten years, I’ve continued to move, live,
@@ -40,7 +40,7 @@ const About = () => {
                 transition, uncertainty, and change.
               </p>
               <p>
-                <span className="text-2xl">Alongside</span> my work as a
+            Alongside my work as a
                 psychologist, I also teach preschool children. Teaching has
                 become a natural extension of my curiosity about emotional
                 development and learning. Every day, I witness how children
@@ -52,7 +52,7 @@ const About = () => {
                 well.
               </p>
               <p>
-                <span className="text-2xl">My</span> therapeutic approach is
+               My  therapeutic approach is
                 empathetic, reflective, and person-centered. I believe healing
                 begins with understanding: understanding our stories, our
                 emotional patterns, and the protective mechanisms we develop
@@ -62,7 +62,7 @@ const About = () => {
                 can explore their emotions without judgment.
               </p>
               <p>
-                <span className="text-2xl">I</span> see therapy as a
+                I see therapy as a
                 collaborative process built on trust, curiosity, and respect for
                 each person’s pace and individuality. I draw from my
                 multicultural experiences to support people navigating
@@ -73,7 +73,7 @@ const About = () => {
               </p>
 
               <p>
-                <span className="text-2xl">I'm</span> continuously inspired by
+                I'm continuously inspired by
                 the resilience of the human mind, the way it adapts, protects,
                 and heals. For me, psychology is not just a career but a
                 lifelong exploration of what it means to be human: to think, to
@@ -85,7 +85,7 @@ const About = () => {
               </p>
 
               <p>
-                <span className="text-2xl">Today,</span> I offer online
+                Today I offer online
                 sessions, workshops, and consultations, providing accessible
                 psychological support no matter where you are in the world.
               </p>
