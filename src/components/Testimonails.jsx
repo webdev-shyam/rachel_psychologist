@@ -5,17 +5,17 @@ function Testimonials() {
     {
       name: "Tajane Rokaj",
       role: "Client, Rachel Psychologist",
-     text: "Rachel’s compassionate and insightful approach creates a safe and supportive environment for personal growth. Her professionalism and empathy are truly invaluable.",
+      text: "Rachel’s compassionate and insightful approach creates a safe and supportive environment for personal growth. Her professionalism and empathy are truly invaluable.",
     },
     {
       name: "Hm Hanna",
       role: "Client, Rachel Psychologist",
-     text: "Thank you for offering an amazing service. Keep it up 🙏",
+      text: "Thank you for offering an amazing service. Keep it up 🙏",
     },
     {
       name: "Massimo Jordan",
       role: "Local Guide & Client",
-     text: "Thank you, Rachel, for your help and great results 🙏",
+      text: "Thank you, Rachel, for your help and great results 🙏",
     },
     {
       name: "Faten Handal",
@@ -57,7 +57,6 @@ function Testimonials() {
               </p>
 
               <div className="flex items-center gap-4">
-              
                 <div>
                   <h4 className="font-semibold">{testimonial.name}</h4>
                   <p className="text-sm text-gray-400">{testimonial.role}</p>

@@ -1,13 +1,14 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Education from './components/Education';
-import WhyMe from './components/WhyMe';
-import Services from './components/Services';
-import CounsellingHelps from './components/CounsellingHelps';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Testimonials from './components/Testimonails';
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Education from "./components/Education";
+import WhyMe from "./components/WhyMe";
+import Services from "./components/Services";
+import CounsellingHelps from "./components/CounsellingHelps";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonails";
+import BackToTop from "./components/BacktoTop";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
+      <BackToTop />
     </div>
   );
 }
