@@ -19,7 +19,6 @@ const Navbar = () => {
     { name: "Why Me", href: "#why-me" },
     { name: "Services", href: "#services" },
     { name: "Counselling Helps", href: "#counselling-helps" },
-    { name: "Testimonials", href: "#testimonials" },
     { name: "Contact", href: "#contact" },
   ];
 

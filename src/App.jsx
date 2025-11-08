@@ -7,7 +7,7 @@ import Services from "./components/Services";
 import CounsellingHelps from "./components/CounsellingHelps";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Testimonials from "./components/Testimonails";
+
 import BackToTop from "./components/BacktoTop";
 
 function App() {
@@ -20,7 +20,6 @@ function App() {
       <WhyMe />
       <Services />
       <CounsellingHelps />
-      <Testimonials />
       <Contact />
       <Footer />
       <BackToTop />
