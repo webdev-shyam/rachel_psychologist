@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,18 +8,19 @@ const Navbar = () => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
     };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Education', href: '#education' },
-    { name: 'Why Me', href: '#why-me' },
-    { name: 'Services', href: '#services' },
-    { name: 'Counselling Helps', href: '#counselling-helps' },
-    { name: 'Contact', href: '#contact' },
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Education", href: "#education" },
+    { name: "Why Me", href: "#why-me" },
+    { name: "Services", href: "#services" },
+    { name: "Counselling Helps", href: "#counselling-helps" },
+    { name: "Testimonials", href: "#testimonials" },
+    { name: "Contact", href: "#contact" },
   ];
 
   const handleLinkClick = () => {
@@ -30,15 +31,22 @@ const Navbar = () => {
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-background/95 backdrop-blur-md shadow-md'
-          : 'bg-transparent'
+          ? "bg-background/95 backdrop-blur-md shadow-md"
+          : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8  p-5 ">
         <div className="flex justify-between items-center h-20">
-          <a href="#" className=" h-[200px] w-[200px] rounded-lg placeholder:text-2xl font-bold bg-linear-to-r flex justify-center items-center from-[#7A3EF0] to-[#3AA0FF] bg-clip-text text-transparent">
-          <img className="h-56 w-56 rounded-full object-cover" src="assets/logo4.png" alt="logo" />
-        </a>
+          <a
+            href="#"
+            className=" h-[200px] w-[200px] rounded-lg placeholder:text-2xl font-bold bg-linear-to-r flex justify-center items-center from-[#7A3EF0] to-[#3AA0FF] bg-clip-text text-transparent"
+          >
+            <img
+              className="h-56 w-56 rounded-full object-cover"
+              src="assets/logo4.png"
+              alt="logo"
+            />
+          </a>
 
           <div className="hidden md:flex space-x-8">
             {navLinks.map((link) => (
