@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ArrowUp } from 'lucide-react';
+import { FaArrowUp } from 'react-icons/fa';
 
 function BackToTop() {
   const [isVisible, setIsVisible] = useState(false);
@@ -25,10 +25,10 @@ function BackToTop() {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 z-40 p-3 bg-gradient-to-r from-[#7A3EF0] to-[#3AA0FF] rounded-full hover:shadow-[0_0_30px_rgba(122,62,240,0.5)] transition-all duration-300 hover:scale-110 animate-fade-in"
+          className="fixed bottom-8 right-8 z-40 p-3 bg-gradient-to-r from-[#968aac] to-[#3AA0FF] rounded-full hover:shadow-[0_0_30px_rgba(122,62,240,0.5)] transition-all duration-300 hover:scale-110 animate-fade-in"
           aria-label="Back to top"
         >
-          <ArrowUp className="w-6 h-6" />
+          <FaArrowUp className="w-6 h-6 cursor-pointer" />
         </button>
       )}
     </>
